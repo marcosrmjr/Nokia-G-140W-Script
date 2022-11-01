@@ -133,8 +133,8 @@ def wlan ():
     comandos = [
         'cfgcli -f -s InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.WPS.Enable False',
         'cfgcli -f -s InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.Standard "b,g,n"',
-        'cfgcli -f -s InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.SSID Direct-WIFI-2G',
-        'cfgcli -f -s InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.SSID Direct-WIFI-5G',
+        'cfgcli -f -s InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.SSID NOME-WIFI-2G',
+        'cfgcli -f -s InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.SSID NOME-WIFI-5G',
         #'cfgcli -f -s InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.PreSharedKey.1.PreSharedKey ' + pswd,
         #'cfgcli -f -s InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.PreSharedKey.1.PreSharedKey ' + pswd,
     ]
